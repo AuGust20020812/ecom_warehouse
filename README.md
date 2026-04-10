@@ -40,33 +40,33 @@ markdown
 ```bash
 # 一键运行所有脚本
 python run_all.py
-🐧 Linux 定时任务（企业数仓必备）
+
+🐧 Linux 定时任务
 配置步骤
 编辑定时任务：
-bash
-运行
+
 crontab -e
+
 在文件末尾添加（每天凌晨 2 点自动跑数仓）：
-bash
-运行
+
 0 2 * * * cd /home/project/ecom_warehouse && sh run.sh
+
 保存退出，定时任务自动生效
 查看定时任务：
-bash
-运行
+
 crontab -l
+
 查看定时任务日志：
-bash
-运行
+
 tail -f /var/log/cron
+
 📌 Git Workflow 协作规范
 分支规范
 main：生产环境稳定分支
 feature：功能开发分支
 fix：bug 修复分支
+
 提交规范
-bash
-运行
 git add .
 git commit -m "feat: 新增XX功能"
 git commit -m "fix: 修复XX问题"
