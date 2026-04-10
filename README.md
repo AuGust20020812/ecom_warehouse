@@ -45,16 +45,19 @@ chmod +x run.sh
 # 一键启动
 sh run.sh
 
-Linux（企业标准）
-bash
-运行
+## Linux
+```bash
+
 # 赋予执行权限
 chmod +x run.sh
 
 # 一键启动
 sh run.sh
-⏰ Linux 定时任务（企业数仓必备）
-配置步骤
+
+---
+
+## ⏰ Linux 定时任务
+### 配置步骤
 编辑定时任务：
 bash
 运行
