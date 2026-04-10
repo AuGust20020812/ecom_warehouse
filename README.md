@@ -39,15 +39,10 @@
 # 一键运行所有脚本
 python run_all.py
 
-# 赋予执行权限
-chmod +x run.sh
-
-# 一键启动
-sh run.sh
+---
 
 ## Linux
 ```bash
-
 # 赋予执行权限
 chmod +x run.sh
 
@@ -60,7 +55,7 @@ sh run.sh
 ### 配置步骤
 编辑定时任务：
 bash
-运行
+
 crontab -e
 在文件末尾添加（每天凌晨 2 点自动跑数仓）：
 bash
