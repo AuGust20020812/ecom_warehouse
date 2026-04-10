@@ -39,3 +39,12 @@
 ```bash
 # 一键运行所有脚本
 python run_all.py
+
+## Linux
+# 赋予执行权限
+chmod +x run.sh
+
+# 一键启动
+sh run.sh
+
+## 
