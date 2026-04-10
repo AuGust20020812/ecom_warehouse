@@ -40,14 +40,6 @@ markdown
 ```bash
 # 一键运行所有脚本
 python run_all.py
-Linux（企业标准）
-bash
-运行
-# 赋予执行权限
-chmod +x run.sh
-
-# 一键启动
-sh run.sh
 🐧 Linux 定时任务（企业数仓必备）
 配置步骤
 编辑定时任务：
